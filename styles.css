@@ -80,7 +80,7 @@ p {
 
 @media (min-width: 720px){
     img{
-        height:750px;
+        height:650px;
     }
 
     section{
@@ -91,5 +91,49 @@ p {
         background-image: -moz-radial-gradient(rgb(110, 214, 255),mediumblue);
     }
 
+    p{
+        font-size:19pt;
+    }
 
+    h2 {
+        font-size: 26pt;
+    }
+
+
+}
+
+@media (min-width: 992px){
+    img{
+        align-items: left;
+        margin: right 20px;
+        float:left;
+
+        
+    }
+
+   
+   
+   p{
+    background: none;
+    color:aliceblue;
+    border: none;
+    font-size: 34pt;
+    margin-bottom:150px;
+    
+   }
+
+   h2{
+    font-size:58pt;
+   
+   }
+
+   footer{
+    position:sticky;
+    bottom:0;
+    align-items: left;
+   }
+
+   h2{
+    margin:100px;
+   }
 }

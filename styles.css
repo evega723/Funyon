@@ -1,3 +1,5 @@
+
+/* set base formatting and color scheme for page using body, header and h2 */
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color:mediumblue;
@@ -24,6 +26,7 @@ h2 {
     border-style:solid;
 }
 
+/* Make sticky nav */
 nav {
     
     position:sticky;
@@ -34,12 +37,15 @@ nav {
     
 }
 
+/* format image for smallest screen size first */
 img {
     display:block;
     margin-left: auto;
     margin-right: auto;
 }
 
+
+/* format paragraphs for each section */
 p {
     background-color: aliceblue;
     border-style: double;
@@ -55,7 +61,7 @@ p {
 
 
 
-
+/* media query @576px changes padding on text boxes and enlarges images */
 @media (min-width: 576px){
 
 
@@ -77,6 +83,8 @@ p {
 
 
 }
+
+/* Media query @720px further enlarges images, changes background to a radial gradient, and increases font-size,*/
 
 @media (min-width: 720px){
     img{
@@ -102,6 +110,8 @@ p {
 
 }
 
+
+/* Final media query @992px changes layout so images float left, further enlarges images and font-size, removes text boxes in favor of plain text, uses box model to avoid text box overlapping images, and makes footer sticky*/
 @media (min-width: 992px){
     img{
         align-items: left;

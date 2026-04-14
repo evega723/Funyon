@@ -78,3 +78,18 @@ p {
 
 }
 
+@media (min-width: 720px){
+    img{
+        height:750px;
+    }
+
+    section{
+        margin:60px;
+    }
+
+    body{
+        background-image: -moz-radial-gradient(rgb(110, 214, 255),mediumblue);
+    }
+
+
+}
